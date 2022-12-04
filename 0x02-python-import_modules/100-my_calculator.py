@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
-    import sys
+    from sys import argv, exit
 
     nargs = len(sys.argv) - 1
     if nargs != 3:
