@@ -43,7 +43,7 @@ int compare(listint_t *h1, listint_t *h2)
 		if (tmp1->n == tmp2->n)
 		{
 			tmp1 = tmp1->next;
-			tmp2 = tmpe->next;
+			tmp2 = tmp2->next;
 		}
 		else
 		{
@@ -72,9 +72,9 @@ int is_palindrome(listint_t **head)
 	middle = NULL;
 	isp = 1;
 
-	if (*head != NULL && (*head)->next !=NULL)
+	if (*head != NULL && (*head)->next != NULL)
 	{
-		while(fast != NULL && fast->next != NULL)
+		while (fast != NULL && fast->next != NULL)
 		{
 			fast = fast->next->next;
 			prev_slow = slow;
