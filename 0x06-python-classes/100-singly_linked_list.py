@@ -44,8 +44,8 @@ class SinglyLinkedList:
 
     def __init__(self):
         """Initalize a new SinglyLinkedList."""
-
         self.__head = None
+
     def sorted_insert(self, value):
         """Insert a new Node to the SinglyLinkedList.
 
