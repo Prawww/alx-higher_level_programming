@@ -28,7 +28,7 @@ class Rectangle:
     def width(self):
         """Get/set the width of the Rectangle."""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         if not isinstance(value, int):
@@ -41,7 +41,7 @@ class Rectangle:
     def height(self):
         """Get/set the height of the Rectangle."""
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
@@ -77,6 +77,7 @@ class Rectangle:
         if rect_1.area() >= rect_2.area():
             return (rect_1)
         return (rect_2)
+
     def __str__(self):
         """Return the printable representation of the Rectangle.
 
