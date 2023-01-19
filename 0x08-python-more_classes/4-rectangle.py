@@ -56,7 +56,7 @@ class Rectangle:
 
         Represents the rectangle with # character.
         """
-        if self.__width == 0 or self.__eight == 0:
+        if self.__width == 0 or self.__height == 0:
             return ("")
 
         rect = []
