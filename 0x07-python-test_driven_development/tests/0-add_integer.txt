@@ -8,10 +8,10 @@
 	5
 
 >>> add_integer(2.9, 0.2)
-	2
+	3
 
 >>>add_integer(-2.9, -0.2)
--2
+-3
 
 >>>add_integer(2.3, -3)
 -1
