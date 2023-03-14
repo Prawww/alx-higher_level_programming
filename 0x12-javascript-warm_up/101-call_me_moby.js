@@ -1,4 +1,4 @@
 #!/usr/bin/node
-exports.addMeMaybe = function addMeMaybe (number, theFunction) {
-  return theFunction(++number);
+exports.callMeMoby = function (x, theFunction) {
+  for (let i = 0; i < x; i++) theFunction();
 };
