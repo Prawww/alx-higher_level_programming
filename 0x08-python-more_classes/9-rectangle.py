@@ -47,7 +47,7 @@ class Rectangle:
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
         if value < 0:
-            aise ValueError("height must be >= 0")
+            raise ValueError("height must be >= 0")
         self.__height = value
 
     def area(self):
@@ -68,7 +68,7 @@ class Rectangle:
             rect_1 (Rectangle): The first Rectangle.
             rect_2 (Rectangle): The second Rectangle.
         Raises:
-            TypeError: If either of rect_1 or rect_2 is not a Rectangle
+            TypeError: If either of rect_1 or rect_2 is not a Rectangle.
         """
         if not isinstance(rect_1, Rectangle):
             raise TypeError("rect_1 must be an instance of Rectangle")
