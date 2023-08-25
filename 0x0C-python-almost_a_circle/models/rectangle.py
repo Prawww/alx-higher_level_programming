@@ -4,6 +4,7 @@ inheritance of class Base
 """
 from models.base import Base
 
+
 class Rectangle(Base):
     """ Class Rectangle """
 
